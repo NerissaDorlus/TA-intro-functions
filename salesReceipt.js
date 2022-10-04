@@ -6,7 +6,11 @@ function calculateSalesTax(subTotal, taxRate){
 }
 
 const taxTotal = calculateSalesTax(subTotal, taxRate)
-console.log('Subtotal     $', subTotal)
-console.log('Tax          $', taxTotal)
+console.log('Subtotal     $', subTotal.toFixed(2))
+console.log('Tax          $', taxTotal.toFixed(2))
 console.log('------------------------')
-console.log('Total        $', subTotal + taxTotal)
+console.log('Total        $', (subTotal + taxTotal).toFixed(2))
+
+
+
+
